@@ -1,6 +1,7 @@
 <script>
   export let name;
   import TalkBox from './TalkBox.svelte';
+  import ClickCounter from './ClickCounter.svelte';
 </script>
 
 <style>
@@ -14,3 +15,4 @@
 <div>
   <TalkBox/>
 </div>
+ <ClickCounter/>

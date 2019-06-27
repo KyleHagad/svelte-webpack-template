@@ -1,6 +1,8 @@
 <script>
-  export let words;
+  export let words = '';
 </script>
   <h3>Tell me something!</h3>
-  <input value={words}>
-
+  <input bind:value={words}>
+{#if words.length > 0}
+  <p>{words}!? Is that so?</p>
+{/if}
